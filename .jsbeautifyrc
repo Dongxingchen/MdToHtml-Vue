@@ -1,0 +1,39 @@
+{
+    "eol": "\n",
+    "indent_char": " ", // 空格缩进
+    "indent_size": 4,
+    "indent_with_tabs": false, // tab缩进
+    "max_preserve_newlines": 2,
+    "preserve_newlines": true,
+    "keep_array_indentation": false,
+    "break_chained_methods": false,
+    // "wrap_line_length": 120,
+    "extra_liners": [
+        "head",
+        "body",
+        "/html"
+    ],
+    "brace_style": "collapse",
+    "space_around_combinator": true,
+    "indent_level": 0,
+    "space_after_anon_function": true, // 匿名函数后加空格 eg. function () {}
+    "wrap_attributes": "auto",
+    "indent_body_inner_html": true, // body子标签缩进
+    "indent_head_inner_html": true, // head子标签缩进
+    "indent_scripts": "normal", // script标签缩进
+    "newline_between_rules": false, // css规则之间空一行
+    "comma_first": false, // 逗号前置
+    "keep_function_indentation": false,
+    "operator_position": "before-newline", // 将运算符移动到新行之前或之后，或按原样保持。
+    "space_before_conditional": true, // 条件声明前加空格
+    "space_in_paren": false, // 括号内边缘加空格
+    "space_in_empty_paren": false, // 空括号中加空格
+    "unformatted": [ // 不格式化的标签
+        "abbr", "area", "audio", "b", "bdi", "bdo", "br", "canvas", "cite", "code", "data", "datalist",
+        "del", "dfn", "em", "embed", "i", "iframe", "ins", "kbd", "keygen", "map", "mark", "math",
+        "meter", "noscript", "object", "output", "progress", "q", "ruby", "s", "samp", "small",
+        "strong", "sub", "sup", "template", "textarea", "time", "u", "var", "video", "wbr", "text",
+        "acronym", "address", "big", "ins", "small", "strike", "tt", "pre"
+    ],
+    "end_with_newline": false // 文件结尾空一行
+}
